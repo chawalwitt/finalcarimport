@@ -1,0 +1,11 @@
+mixin listItem(car)
+    tr 
+        td #{car.id}
+        td #{car.brand}
+        td #{car.model}
+        td #{car.price}
+        td #{car.carstocks}
+        td
+            a(href="/car/delete/"+ car.id) <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delete-4004183-3351151.png?f=webp" alt="">
+        td
+            a(href="/car/form/"+ car.id) <img src="https://static.vecteezy.com/system/resources/previews/019/552/595/non_2x/sign-up-icon-signup-square-box-on-transparent-background-free-png.png" alt="">

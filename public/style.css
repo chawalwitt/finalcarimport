@@ -1,0 +1,125 @@
+table{
+    margin: auto;
+    border-spacing: 0;
+    padding: 0;
+    /*background: rgb(211, 208, 208);*/
+    background: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+
+th{
+    background: blue;
+    font-weight: bold;
+    color: lightgray;
+    text-align: center;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+td{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    /*border: 0.3px solid black;*/
+}
+
+tr{
+    color: rgb(19, 19, 18);
+}
+
+h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    width: 30px;
+    height: 25px;
+}
+
+.img-addedit img{
+    width: 50%;
+    height: 50%;
+} 
+
+.img-addedit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 300px;
+}
+
+input{
+    width: 200px;
+}
+
+.input2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-save{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn-save button{
+    background: rgb(43, 151, 201);
+    /*color: black;*/
+    border-radius: 15px;
+    border-color: rgb(11, 11, 11);
+    font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    /*background: rgb(239, 195, 195);*/
+    /*background: linear-gradient(to left,rgb(242, 144, 160),pink,rgb(235, 231, 231));*/
+    background: linear-gradient(to left,white,rgb(157, 157, 243),rgb(88, 88, 231));
+}
+
+.header{
+    /*background: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    width: 50px;
+    height: 40px;
+    margin-left: 2rem;
+}
+
+.header h1{
+    margin-right: 23rem;
+}
+
+h4{
+    text-align: center;
+    justify-content: center;
+    font: red;
+}
+
+h4 a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.flex-box{
+    width: 90px;
+    background: rgb(14, 14, 14);
+}
+
+
+
